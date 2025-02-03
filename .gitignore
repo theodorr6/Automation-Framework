@@ -1,3 +1,4 @@
 .env
 *.yml
 /wp-content
+/venv
