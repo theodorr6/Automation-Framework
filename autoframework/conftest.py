@@ -1,6 +1,7 @@
 import pytest
 from selenium import webdriver
 import os
+from autoframework import env
 
 @pytest.fixture(scope="class")
 def init_driver(request):
