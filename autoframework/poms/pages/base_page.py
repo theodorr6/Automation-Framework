@@ -8,9 +8,9 @@ class BasePage:
         self.driver = driver
 
 
-    def access_url(self):
+    def access_url(self, url):
         """Access specified URL."""
-        self.driver.get("https://practicetestautomation.com/practice-test-login/")
+        self.driver.get(url)
 
 
     def click_element(self, locator, timeout=10):
